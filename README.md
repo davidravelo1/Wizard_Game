@@ -1,2 +1,7 @@
 # Wizard_Game
-Creado por JOSUÉ RODRÍGUEZ y DAVID RAVELO
+                                                                          Proyecto modelos 2 
+Creadores: 
+
+JOSUÉ RODRÍGUEZ - 20191020109
+DAVID RAVELO-  20191020061
+

@@ -1,0 +1,141 @@
+body{
+  background-image: url('../assets/Cass.jfif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0;
+}
+h1{
+    text-align: center;
+    color: #f1e6ae;
+    font-size: 60px;
+    font-family: 'Akronim', cursive;
+    background: radial-gradient(black, transparent);
+}
+
+h2{
+    margin: 50px 50px 10px;
+    font-size: 50px;;
+    font-family: 'Akronim', cursive;
+    color: #a92a04;
+}
+svg,rect{
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    fill:transparent;
+}
+rect{
+
+}
+.Tw{
+    border: #a8b0c1 3px solid;
+    margin: 50px 50px;
+    padding: 20px;
+    overflow: auto;
+    background: #d4d7d029
+}
+.Ts{
+    border: #a8b0c1 3px solid;
+    margin: 50px 50px;
+    padding: 20px;
+    overflow: auto;
+    background: #d4d7d029
+}
+.w{
+    float: right;
+    width:170px;
+    height:170px;
+    margin-right:15px; 
+}
+.s{
+    float: right;
+    width:170px;
+    height:170px;
+    margin-right:15px;
+}
+.icono{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  } 
+.p1{
+    font-size: 30px;
+    margin-left: 60px;
+    font-family: 'Lobster Two', cursive;  
+    color: #f1e6ae;
+}
+.p2{
+    font-size: 30px;
+    margin-left: 60px;
+    font-family: 'Lobster Two', cursive;
+    color: #f1e6ae;
+}
+.p3{
+    margin: 50px 50px 50px;
+    font-size: 30px;
+    font-family: 'Lobster Two', cursive;
+    color: #f1e6ae;
+}
+.Botones{
+    margin: 30px 50px 30px;
+    display: flex;
+}
+.Boton{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #e0d9c64d;
+    border-radius: 60px;
+    border: 2px solid #080807;
+    margin: 0;
+    position: absolute;
+    right: 88%;
+    display: flex;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+}
+.Boton:hover{
+    background-color: #e0d9c6;
+    color: black;
+}
+.Boton_2{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #e0d9c64d;
+    border-radius: 60px;
+    border: 2px solid #080807;
+    margin: 0;
+    position: absolute;
+    cursor: pointer;
+    display: inline-block;
+    left:93%;
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+}
+.Boton_2:hover{
+    background-color: #e0d9c6;
+    color: black;
+}
+footer{
+    background: #000;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+    margin-top: 110px;
+    position: relative;
+    bottom: 0;
+    font-family: 'Times New Roman', Times, serif;
+  }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Wizard Game</title>
+    <link href="{{url_for('static', filename='styles/ranking.css')}}" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="head">
+      <h1>WITCHER RANKING</h1>
+    </div>
+    <div class="tabla">
+      <table class="table table-dark">
+        <thead>
+          <tr class="table-active">
+              <th>#</th>
+              <th >Nombre</th>
+              <th>Puntuacion</th>
+              
+          </tr>
+      </thead>
+      <tbody>
+          {% for tabla in tablas %}
+          <tr>
+              <td>{{loop.index}}</td>
+              <td>{{tabla[0]}}</td>
+              <td>{{tabla[1]}}</td>
+          </tr>
+          {% endfor %}
+      </tbody>
+      </table>
+    </div>
+    
+    <section id="home">
+      <div class="home">
+        <a href="/">
+          <button class="Boton_1">
+            <img src="../static/assets/pagina-de-inicio.png" class="icono">
+            <P class="p_boton">INICIO</P>
+          </button>
+        </a>
+      </div>
+    </section> 
+
+  </body>
+  <footer>
+    <p>Hecho por: David Ravelo y Josue Rodriguez</p>
+</footer>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instrucciones</title>
+    <link href="{{url_for('static', filename='styles/instrucciones.css')}}" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&family=Lobster+Two:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Instrucciones</h1>
+    <h2>Movimiento</h2>
+    <div class="Tw">  
+        <p class="p1"><img class="w" src=" {{url_for('static', filename='assets/w.png')}}">
+            Al presionar la tecla W el mago se movera hacia arriba</p>
+    </div>
+    <div class="Ts">
+        <p class="p2"><img class="s" src=" {{url_for('static', filename='assets/s.png')}}">
+            Al presionar la tecla S el mago se movera hacia abajo</p>
+    </div>
+    <h2>Reglas del juego</h2>
+        <p class="p3">El juego consiste en esquivar los ataques que te son lanzados moviendote verticalmente, por cada ataque que esquive el mago,
+            recibira un punto. ¡Obten la mayor cantidad de puntos posible y diviertete!
+        </p>
+    <div class="Botones">
+      <a href="/">       
+        
+        <button class="Boton">
+            <img src="../static/assets/pagina-de-inicio.png" class="icono">
+            <p class="p_boton">INICIO</p>
+        </button> 
+      </a>       
+      <a href="game"> 
+        <button class="Boton_2">
+            <img src="../static/assets/boton-de-play.png" class="icono"> 
+            <p class="p_boton">JUGAR</p>    
+        </button>
+      </a>       
+    </div>
+    <footer>
+        <p>Hecho por: David Ravelo y Josue Rodriguez</p>
+    </footer>
+</body>
+</html>

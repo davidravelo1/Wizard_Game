@@ -1,0 +1,70 @@
+html{
+  min-height: 100%;
+  min-width: 100%;
+}
+body{
+  background-image: url('../assets/3629.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Medula One', sans-serif;
+  
+  margin: 0;
+}
+.head{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.head h1{
+  color: #e0d9c6;
+  text-align: center;
+  font-family: 'Akronim', cursive;
+  font-size: 100px; 
+}
+.tabla{
+  padding-inline: 3rem;
+}
+.home{
+  margin-top: 150px;
+}
+.Boton_1{
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #e3d6db6e;
+  border-radius: 60px;
+  border: 2px solid #080807;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  display: flex;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%);
+}   
+.Boton_1:hover{
+  background-color: #e3d6db;
+  color: black;
+}
+.icono{
+height: 30px;
+width: 30px;
+margin-right: 10px;
+} 
+.p_boton{
+margin-bottom: 0.5em;
+}
+footer{
+    background: #000;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+    margin-top: 110px;
+    position: fixed;
+    bottom: 0;
+    font-family: 'Times New Roman', Times, serif;
+  }

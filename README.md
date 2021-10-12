@@ -1,5 +1,5 @@
 # Wizard_Game
-                                                                  Proyecto modelos 2 
+Proyecto modelos 2 
 Creadores: 
 
 JOSUÉ RODRÍGUEZ - 20191020109
